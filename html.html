@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>لعبة X/O خرافية</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>🔥 لعبة X/O 🔥</h1>
+    <div class="board" id="board">
+      <!-- سيتم توليد المربعات من جافا سكريبت -->
+    </div>
+    <div class="status" id="status">دور اللاعب: X</div>
+    <button id="reset">إعادة اللعب 🔁</button>
+  </div>
+  <script src="script.js"></script>
+  <audio id="bg-music" loop hidden>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_91adbd2aa3.mp3?filename=ambient-piano-and-pad-10711.mp3" type="audio/mpeg">
+    متصفحك لا يدعم تشغيل الصوت.
+  </audio>
+
+</body>
+<footer class="footer">
+  <div class="scrolling-text">
+    <p>© 2025 جميع الحقوق محفوظة - <span class="owner">سامي القلعي</span></p>
+  </div>
+
+  <p class="follow-text">تابعني على فيسبوك وإنستغرام لمزيد من الألعاب والمشاريع 🚀</p>
+
+  <div class="social-icons">
+    <a href="https://www.facebook.com/sami.kalai.sk/" target="_blank" title="فيسبوك">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/sami__kalai/" target="_blank" title="إنستغرام">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+    </a>
+  </div>
+
+  <div class="qr-section">
+    <div class="qr-block">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://www.facebook.com/sami.kalai.sk/" alt="Facebook QR">
+      <p>فيسبوك</p>
+    </div>
+    <div class="qr-block">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://www.instagram.com/sami__kalai/" alt="Instagram QR">
+      <p>إنستغرام</p>
+    </div>
+  </div>
+
+</footer>
+
+</html>
